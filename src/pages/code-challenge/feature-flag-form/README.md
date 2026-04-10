@@ -30,9 +30,10 @@
 
 ## 🛠 Tech Stack Requirements
 
-- **Framework:** React / Next.js
+- **Framework:** React (Vite + TanStack Start)
 - **Form:** `@tanstack/react-form`
 - **Validation:** `Zod`
+- **JSON Preview:** `@monaco-editor/react`
 - **Styling:** Tailwind CSS
 
 ## 🚀 Getting Started
