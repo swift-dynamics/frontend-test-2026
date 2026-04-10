@@ -21,8 +21,49 @@ export const Route = createRootRoute({
       {
         title: 'SWD - Frontend Test v2026',
       },
+      {
+        name: 'description',
+        content: 'Frontend Test v2026',
+      },
+      {
+        name: 'author',
+        content: 'Swift Dynamics',
+      },
+      {
+        name: 'keywords',
+        content: 'Frontend Test v2026',
+      },
+      {
+        name: 'theme-color',
+        content: '#0078b2',
+      },
     ],
     links: [
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png',
+      },
+      {
+        rel: 'manifest',
+        href: '/site.webmanifest',
+      },
+      {
+        rel: 'icon',
+        href: '/favicon.ico',
+      },
       {
         rel: 'stylesheet',
         href: appCss,
